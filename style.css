@@ -45,8 +45,8 @@ span {
     color: #fc8107;
 }
 
-.hero-image {
-    width: 300px;
+.hero-section > img {
+    width: 270px;
     height: 150px;
 }
 
@@ -109,7 +109,7 @@ h2 {
 }
 
 .card {
-    width: 200px;
+    width: 150px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -119,8 +119,9 @@ h2 {
 }
 
 .card > img {
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
+    border-radius: 8px;
 }
 
 .quote-section {
